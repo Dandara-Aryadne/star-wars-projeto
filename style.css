@@ -2,6 +2,8 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    list-style: none;
+    text-decoration: none;
 }
 .back-header{
     display:flex;
@@ -44,6 +46,7 @@
     position:relative;
 }
 .back-robot{
+    position:relative;
     display:flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -65,4 +68,37 @@
     position:absolute;
     left:44%;
     top:14%;
+}
+.back-maul{
+    width: 40vw;
+    position:absolute;
+    left:15%;
+    top:47%;
+    z-index: 10;
+}
+.back-rey{
+    width: 20vw;
+    position:absolute;
+    left:73.5%;
+    top:50%;
+    z-index:10;
+}
+.gray-section{
+    width:100vw;
+    height:150vh;
+    background-color:#2D2D2D ;
+}
+.gray-menu{
+    width: 20vw;
+    position:absolute;
+    left:73.5%;
+    top:50%;
+    z-index:10;
+}
+.text1{
+    width: 20vw;
+    position:absolute;
+    left:73.5%;
+    top:50%;
+    z-index:10;
 }
