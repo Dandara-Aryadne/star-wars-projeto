@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
 /*------------------------header----------------------*/
 
 header figure{
@@ -53,7 +54,9 @@ header{
    left: 78%;
    width: 9vw;
 }
+
 /*------------------------Caixa vermelha para começar a jogar----------------------*/
+
 main{
     height: 100%;
 }
@@ -92,7 +95,6 @@ main{
     }
 
 }
-
 .red-text{
     position: absolute;
     top: 15%;
@@ -146,6 +148,7 @@ main{
     }
 }
 /*------------------------Primeira caixa com texto ----------------------*/
+
 main section{
     width: 100%;
     height: 100%;
@@ -330,6 +333,7 @@ main section{
         right: 30%;
     } 
  }
+ /*------------------------MAIN COMPLETA----------------------*/
 .main2{
     display: flex;
     position: relative;
@@ -396,6 +400,7 @@ main section{
        width: 80vw;
    }
 }
+/*------------------------GRID FECHADA----------------------*/
 .gun:hover{
     cursor: pointer;
     background-image: url(./assets/Grupo\ novos\ graficos.png);
@@ -508,6 +513,7 @@ main section{
 
     }
 }
+/*------------------------NAV E IMAGENS----------------------*/
 .bolder{
     font-weight: bolder;
 }
@@ -653,6 +659,7 @@ main section{
     }
 
 }
+/*------------------------CONTROLE FINAL----------------------*/
 .red-button{
    
     display: flex;
@@ -1066,6 +1073,7 @@ footer{
     }
 
 }
+/*------------------------Estilização final (parte do menu e rodapé)----------------------*/
 .line-space{
     position: absolute;
     width: 22.4%;
