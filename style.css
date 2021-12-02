@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+/*------------------------header----------------------*/
+
 header figure{
     height: 100%;   
     width: 100%;
@@ -51,6 +53,7 @@ header{
    left: 78%;
    width: 9vw;
 }
+/*------------------------Caixa vermelha para começar a jogar----------------------*/
 main{
     height: 100%;
 }
@@ -142,12 +145,13 @@ main{
     width: 70%;
     }
 }
+/*------------------------Primeira caixa com texto ----------------------*/
 main section{
     width: 100%;
     height: 100%;
     
 }
-.battlefront{
+.main-battle{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,27 +160,27 @@ main section{
     top: 18%;
 
 }
-.battlefront img{
+.main-battle img{
     width: 21vw;
   
 }
 
 
 @media(max-width:600px){
-    .battlefront{
+    .main-battle{
     top: 55%;
     width: 56%;
     height: 16%;
     left: 37.5%;
     }
-    .battlefront img{
+    .main-battle img{
         width: 55vw;
         height: 100%;
     }
    
 }
 
-.battefront-title{
+.battle-text{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,19 +190,19 @@ main section{
     position: absolute;
     left: 54%;
 }
-.battefront-title h3{
+.battle-text h3{
     text-transform: uppercase;
     font-size: 1.5vw;
-    font-family:"Gilroy";
+    font-family:'Open Sans', sans-serif;
 }
 
 @media(max-width:600px){
-    .battefront-title{
+    .battle-text{
     top: 69.5%;
     width: 36%;
     left: 62%;
     }
-    .battefront-title h3{
+    .battle-text h3{
         font-size:3.5vw;
     }
    
@@ -246,6 +250,7 @@ main section{
     }
 
 }
+/*------------------------Parte principal da main----------------------*/
 .back-img{
     position: relative;
     height: 70vw;
@@ -259,7 +264,7 @@ main section{
     }
    
 }
-.line{
+.main-line{
     position: absolute;
     top: 42.5%;
     left: 14%;
@@ -268,7 +273,7 @@ main section{
     background-color: grey;
 }
 @media(max-width:600px){
-    .line{
+    .main-line{
         top: 85%;
         height: 0.7vh;
         left: 7%;
@@ -276,15 +281,16 @@ main section{
 
     } 
  }
+ /*------------------------Darth Maul & Rey----------------------*/
 .sith img{
-    width: 100% ;
+    width: 40vw ;
           
 }
 .sith{
     position: absolute;
     z-index: 20;
-    top: 45%;
-    left: 13.5%;
+    top: 48%;
+    left: 15%;
     
 }
 @media(max-width:600px){
@@ -309,14 +315,14 @@ main section{
     position: absolute;
     display: flex;
     left: 73.3%;
-    top: 47.5%;
+    top: 51.2%;
     z-index: 30;    
 }
 .rey :hover{
     opacity: 90%;
 }
 .rey img{
-    width: 21vw;
+    width: 20vw;
 }
 @media(max-width:600px){
     .rey{
@@ -392,7 +398,7 @@ main section{
 }
 .gun:hover{
     cursor: pointer;
-    background-image: url(assets/Grupo\ novos\ graficos.svg);
+    background-image: url(./assets/Grupo\ novos\ graficos.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -400,25 +406,25 @@ main section{
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
-    background-image: url(assets/Grupo\ novos\ graficos.svg);
+    background-image: url(./assets/2.png);
 }
 .ship:hover{
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
-    background-image: url(assets/Grupo\ novos\ graficos.svg);
+    background-image: url(./assets/3.png);
 }
 .storm:hover{
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
-    background-image: url(assets/Grupo\ novos\ graficos.svg);
+    background-image: url(./assets/4.png);
 }
 .luke:hover{
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(assets/Grupo\ novos\ graficos.svg);
+    background-image: url(./assets/5.png);
 }
 .line2{
     position: absolute;
@@ -531,7 +537,7 @@ main section{
     justify-content: flex-end;
     width: 90%;
     transition: background-color .6s ease-in-out;
-    background-color:#FF4500;
+    background-color:#c91e00;
 }
 @media(max-width:600px){
     .list{
