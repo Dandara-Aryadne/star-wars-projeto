@@ -573,7 +573,7 @@ main section{
         left: 36%;
     } 
     .atributos h2{
-        font-size: 3vw;
+        font-size: 4.5vw;
     }
  }
 .txt-main{
@@ -628,7 +628,7 @@ main section{
     }
     .how{
         width: 30%;
-        left: 56%;
+        left: 51%;
         top: 91.4%;
     }
 }
@@ -892,7 +892,7 @@ footer{
     .box-download{
         position: absolute;
         top: 27%;
-        width: 130%;
+        width: 120%;
         height: 27%;
     }
     .first span{
