@@ -305,6 +305,7 @@ main section{
 
 .sith:hover{
     opacity: 90%;
+    cursor:grab;
 }
 .middle{
    
@@ -323,6 +324,7 @@ main section{
 }
 .rey :hover{
     opacity: 90%;
+    cursor:grab;
 }
 .rey img{
     width: 20vw;
